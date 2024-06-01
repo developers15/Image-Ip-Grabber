@@ -1,4 +1,4 @@
- #Image Ip Grabber! 
+ Image Ip Grabber! (sidenote, go to replit and import this repo)
 ____________________
 
 
@@ -17,7 +17,7 @@ have such a abillity
 ____________________________________________________________________________________________________________________________________________________________________________
 
 
-#Table of Contents:   
+Table of Contents:   
                      
 Features             
 _________            
@@ -43,7 +43,7 @@ __________
 
 
 ________________________________________________________________
-#Features! 
+Features! 
 
 100% Untracable and Anonymous!
 
@@ -61,11 +61,11 @@ _______________________________________________________________
 
 
 __________________________________________________________________________
-#How to Setup!
+How to Setup!
 
 
 ip_api_key: Go to ipdata.co and sign up, from there create a new API Key and then paste it in the 2 quotes.
-ip_se_api_key: Go to ipdata.co, and sign up as well. Create a new API Key and then paste it in the 2 quotes as like last time.
+ip_se_api_key: Go to ip2location.io, and sign up as well. Create a new API Key and then paste it in the 2 quotes as like last time.
 webhook: Copy and Paste your discord webhook and put it in the 2 quotes
 webhook_name: The name of the webhook.
 image_path: Since this is mainly using replit, go ahead and get a image of any type. I highly recommand jpg though. But anyways,
