@@ -46,8 +46,11 @@ ________________________________________________________________
 #Features! 
 
 100% Untracable and Anonymous!
+
 Clean and Easy-to-read Embeds!
+
 All the victim needs to do is click: "Open In Orignial"!
+
 Detects when you send it in a Chat!
 
 _______________________________________________________________
