@@ -64,8 +64,8 @@ __________________________________________________________________________
 How to Setup!
 
 
-ip_api_key: Go to ipdata.co and sign up, from there create a new API Key. Copy it and go to line 14 and paste it in the 2 quotes
-ip_se_api_key: Go to ip2location.io, and sign up as well. Create a new API Key, copy it, and go to line 15 and paste it in the two quotes
+ip_api_key: Go to ipdata.co and sign up, from there copy what you see on the dashboard. Copy it and go to line 14 and paste it in the 2 quotes
+ip_se_api_key: Go to ip2location.io, and sign up as well. and on the dashboard copy the first api you see,  and go to line 15 and paste it in the two quotes
 webhook: Copy and Paste your discord webhook and put it in the 2 quotes
 webhook_name: The name of the webhook.
 image_path: Since this is mainly using replit, go ahead and get a image of any type. must use JPG. But anyways,
