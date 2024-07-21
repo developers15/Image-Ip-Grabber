@@ -1,4 +1,4 @@
- Image Ip Grabber! (sidenote, go to replit and import this repo)
+ Image Ip Grabber! (sidenote, go to replit and copy the code in main.js. Then go to replit, create a new repl, node.js and paste it in there)
 ____________________
 
 
@@ -27,7 +27,7 @@ _______
 How to use           
 __________           
                      
- Closing             
+  Closing             
  _______             
                      
                      
